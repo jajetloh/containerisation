@@ -18,7 +18,7 @@ a = Analysis(
             "./streamlit/static"
         ), 
     ],
-    hiddenimports=[],
+    hiddenimports=['pyarrow', 'pandas'],
     hookspath=['./hooks'],
     hooksconfig={},
     runtime_hooks=[],
@@ -38,7 +38,7 @@ exe = EXE(
     a.datas,
     [],
     name='run_main_3',
-    debug=False,
+    debug=True,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,

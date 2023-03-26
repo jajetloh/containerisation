@@ -1,0 +1,4 @@
+hiddenimports = [
+    "pyarrow",
+    "pyarrow.vendored"
+]
