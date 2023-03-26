@@ -2,3 +2,4 @@ env
 build
 dist
 *.code-workspace
+*/*__pycache__

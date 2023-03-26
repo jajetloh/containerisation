@@ -1,4 +1,3 @@
 hiddenimports = [
-    "pyarrow",
-    "pyarrow.vendored"
+    "pyarrow.vendored.version"
 ]

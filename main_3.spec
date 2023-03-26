@@ -16,7 +16,7 @@ a = Analysis(['main_3.py'],
                      "./streamlit/static"
                  )
             ],
-            hiddenimports=[],
+            hiddenimports=['pyarrow'],
             hookspath=[],
             hooksconfig={},
             runtime_hooks=[],
